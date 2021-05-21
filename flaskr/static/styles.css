@@ -1,0 +1,20 @@
+.body_text {
+    margin: 1rem;
+}
+
+.table {
+    margin: 1rem;
+    background-color: #f5f5f5;
+}
+
+.table__row:nth-child(even) {
+    background-color: #e5e5e5;
+}
+
+.table__header {
+    text-align: left;
+}
+
+.table__cell {
+    padding: 8px;
+}
