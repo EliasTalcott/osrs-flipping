@@ -1,0 +1,385 @@
+{
+    "bomFormat": "CycloneDX",
+    "components": [
+        {
+            "description": "Python package for providing Mozilla's CA Bundle.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "f29a46c26b4f06fa5721827fb8b3e173"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "719a74fb9e33b9bd44cc7f3a8d94bc35e4049deebe19ba7d8e108280cfd59830"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MPL-2.0"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "certifi",
+            "publisher": "Kenneth Reitz",
+            "purl": "pkg:pypi/certifi@2020.12.5",
+            "type": "library",
+            "version": "2020.12.5"
+        },
+        {
+            "description": "Universal encoding detector for Python 2 and 3",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "504627b9b4fcd44720d5aa1345e29cc7"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "f864054d66fd9118f2e67044ac8981a54775ec5b67aed0441892edb553d21da5"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "LGPL"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "chardet",
+            "publisher": "Mark Pilgrim",
+            "purl": "pkg:pypi/chardet@4.0.0",
+            "type": "library",
+            "version": "4.0.0"
+        },
+        {
+            "description": "Composable command line interface toolkit",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "b0ea4bceb2610bece94ded2424ce9448"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "fba402a4a47334742d782209a7c79bc448911afe1149d07bdabdf480b3e2f4b6"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "click",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/click@8.0.1",
+            "type": "library",
+            "version": "8.0.1"
+        },
+        {
+            "description": "Cross-platform colored terminal text.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "1dcd07acf2b1875ed09428e1ddf7e028"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "colorama",
+            "publisher": "Jonathan Hartley",
+            "purl": "pkg:pypi/colorama@0.4.4",
+            "type": "library",
+            "version": "0.4.4"
+        },
+        {
+            "description": "A simple framework for building complex web applications.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "70dd340b2091805c0446040b6cbe7199"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "a6209ca15eb63fc9385f38e452704113d679511d9574d09b2cf9183ae7d20dc9"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "Flask",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/flask@2.0.1",
+            "type": "library",
+            "version": "2.0.1"
+        },
+        {
+            "description": "Internationalized Domain Names in Applications (IDNA)",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "8f7d13f63706aa265d31ffedc8aa3053"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-like"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "idna",
+            "publisher": "Kim Davies",
+            "purl": "pkg:pypi/idna@2.10",
+            "type": "library",
+            "version": "2.10"
+        },
+        {
+            "description": "Read metadata from Python packages",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "a8817ad342eb80c6fc36733eb954df16"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "d7eb1dea6d6a6086f8be21784cc9e3bcfa55872b52309bc5fad53a8ea444465d"
+                }
+            ],
+            "licenses": [],
+            "modified": false,
+            "name": "importlib-metadata",
+            "publisher": "Jason R. Coombs",
+            "purl": "pkg:pypi/importlib-metadata@4.0.1",
+            "type": "library",
+            "version": "4.0.1"
+        },
+        {
+            "description": "Safely pass data to untrusted environments and back.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "5f220a8fb0b37b5ba8b436c618d5b987"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "5174094b9637652bdb841a3029700391451bd092ba3db90600dea710ba28e97c"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "itsdangerous",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/itsdangerous@2.0.1",
+            "type": "library",
+            "version": "2.0.1"
+        },
+        {
+            "description": "A very fast and expressive template engine.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "b377af8123a32e992984222bff51e152"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "1f06f2da51e7b56b8f238affdd6b4e2c61e39598a378cc49345bc1bd42a978a4"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "Jinja2",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/jinja2@3.0.1",
+            "type": "library",
+            "version": "3.0.1"
+        },
+        {
+            "description": "Safely add untrusted strings to HTML/XML markup.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "a3f1042952e63417c8234e2d1556b39f"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "693ce3f9e70a6cf7d2fb9e6c9d8b204b6b39897a2c4a1aa65728d5ac97dcc1d8"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "MarkupSafe",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/markupsafe@2.0.1",
+            "type": "library",
+            "version": "2.0.1"
+        },
+        {
+            "description": "Python HTTP for Humans.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "ec79209809129bf13cb002a0a573ef45"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "c210084e36a42ae6b9219e00e48287def368a26d03a048ddad7bfee44f75871e"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "Apache 2.0"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "requests",
+            "publisher": "Kenneth Reitz",
+            "purl": "pkg:pypi/requests@2.25.1",
+            "type": "library",
+            "version": "2.25.1"
+        },
+        {
+            "description": "Backported and Experimental Type Hints for Python 3.5+",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "9fd2a2ae09511032a1d2ed40cd45713a"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "779383f6086d90c99ae41cf0ff39aac8a7937a9283ce0a414e5dd782f4c94a84"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "PSF"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "typing-extensions",
+            "publisher": "Guido van Rossum, Jukka Lehtosalo, \u0141ukasz Langa, Michael Lee",
+            "purl": "pkg:pypi/typing-extensions@3.10.0.0",
+            "type": "library",
+            "version": "3.10.0.0"
+        },
+        {
+            "description": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "614921c9cf13a83124446ac86baf70f3"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "2f4da4594db7e1e110a944bb1b551fdf4e6c136ad42e4234131391e21eb5b0df"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "MIT"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "urllib3",
+            "publisher": "Andrey Petrov",
+            "purl": "pkg:pypi/urllib3@1.26.4",
+            "type": "library",
+            "version": "1.26.4"
+        },
+        {
+            "description": "The comprehensive WSGI web application library.",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "203bffc79c50918f57350e8ca5446cc3"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "6c1ec500dcdba0baa27600f6a22f6333d8b662d22027ff9f6202e3367413caa8"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "name": "BSD-3-Clause"
+                    }
+                }
+            ],
+            "modified": false,
+            "name": "Werkzeug",
+            "publisher": "Armin Ronacher",
+            "purl": "pkg:pypi/werkzeug@2.0.1",
+            "type": "library",
+            "version": "2.0.1"
+        },
+        {
+            "description": "Backport of pathlib-compatible object wrapper for zip files",
+            "hashes": [
+                {
+                    "alg": "MD5",
+                    "content": "483005e4371c4272901908cffc968ac2"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "51cb66cc54621609dd593d1787f286ee42a5c0adbb4b29abea5a63edc3e03098"
+                }
+            ],
+            "licenses": [],
+            "modified": false,
+            "name": "zipp",
+            "publisher": "Jason R. Coombs",
+            "purl": "pkg:pypi/zipp@3.4.1",
+            "type": "library",
+            "version": "3.4.1"
+        }
+    ],
+    "specVersion": "1.2",
+    "version": 1
+}

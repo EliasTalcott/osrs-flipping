@@ -1,27 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Item Sets</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
-</head>
+{% extends "base.html" %}
+
+{% block content %}
 <body>
-    <h1 class="body_text">Converting Sets to Components</h1>
-    <h4 class="body_text">Components based on instant buy price and sets based on instant sell price</h4>
-    <table class="table">
-        <tr class="table__header">
-            {% for header in headings %}
-            <th class="table__cell">{{ header }}</th>
-            {% endfor %}
-        </tr>
-        {% for row in data %}
-        <tr class="table__row">
-            {% for cell in row %}
-            <td class="table__cell">{{ cell }}</td>
-            {% endfor %}
-        </tr>
-        {% endfor %}
-    </table>
+    <h1>{% block title %}Converting Sets to Components{% endblock %}</h1>
+    <h4>Sets based on instant buy price and components based on instant sell price</h4>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    {% for header in headings %}
+                    <th scope="col" class="text-center align-middle">{{ header }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in data %}
+                <tr>
+                    {% for cell in row %}
+                    <td class="text-center align-middle">{{ cell }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </body>
-</html>
+{% endblock %}
